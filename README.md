@@ -23,20 +23,31 @@ This project simulates a small business network featuring VLAN segmentation, int
 
 ## Network Topology
 
-
 ![Network Topology](screenshots/topology.png)
 
 ---
 
 ## Departments
 
-| VLAN | Department | Network |
-|------|------------|----------------|
-| 10 | HR | 192.168.10.0/24 |
-| 20 | Finance | 192.168.20.0/24 |
-| 30 | IT | 192.168.30.0/24 |
-| 40 | Guest | 192.168.40.0/24 |
-| 50 | Server Room | 192.168.50.0/24 |
+| VLAN | Department  | Network         |
+| ---- | ----------- | --------------- |
+| 10   | HR          | 192.168.10.0/24 |
+| 20   | Finance     | 192.168.20.0/24 |
+| 30   | IT          | 192.168.30.0/24 |
+| 40   | Guest       | 192.168.40.0/24 |
+| 50   | Server Room | 192.168.50.0/24 |
+
+| Device                   | IP Address   | Purpose               |
+| ------------------------ | ------------ | --------------------- |
+| Router Gateway (VLAN 10) | 192.168.10.1 | Default Gateway       |
+| Router Gateway (VLAN 20) | 192.168.20.1 | Default Gateway       |
+| Router Gateway (VLAN 30) | 192.168.30.1 | Default Gateway       |
+| Router Gateway (VLAN 40) | 192.168.40.1 | Default Gateway       |
+| Router Gateway (VLAN 50) | 192.168.50.1 | Default Gateway       |
+| DHCP Server              | 192.168.50.2 | Dynamic IP Assignment |
+| DNS Server               | 192.168.50.3 | Name Resolution       |
+| Web Server               | 192.168.50.4 | Internal Website      |
+| Switch Management        | 192.168.30.2 | SSH Management        |
 
 ---
 
