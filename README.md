@@ -24,7 +24,7 @@ This project simulates a small business network featuring VLAN segmentation, int
 ## Network Topology
 
 
-![Network Topology](../screenshots/topology.png)
+![Network Topology](screenshots/topology.png)
 
 ---
 
