@@ -1,5 +1,14 @@
 # Enterprise Office Network
 
+LAB-001
+
+ENTERPRISE OFFICE NETWORK
+
+Secure enterprise network implementation
+built with Cisco Packet Tracer.
+
+BUILD • DETECT • DEFEND
+---
 A secure enterprise office network designed and implemented using Cisco Packet Tracer.
 
 This project simulates a small business network featuring VLAN segmentation, inter-VLAN routing, DHCP, DNS, SSH, ACLs, and basic switch security. The goal was to design a scalable and secure network while applying Cisco CCNA networking concepts.
