@@ -4,9 +4,6 @@ LAB-001
 
 ENTERPRISE OFFICE NETWORK
 
-Secure enterprise network implementation
-built with Cisco Packet Tracer.
-
 BUILD • DETECT • DEFEND
 ---
 A secure enterprise office network designed and implemented using Cisco Packet Tracer.
